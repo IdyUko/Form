@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.Hero{
+    width: 550px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(49, 138, 226);
+}
+.Inputholder{
+    width: 80%;
+    height: 80%;
+    /* background-color: chartreuse; */
+}
+.Inputhold1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Tahoma;
+    width: 400px;
+    height: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center; 
+}
+.line{
+    width: 55px;
+    border: 1px solid white;
+}
+.Inputhold2{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+    background-color: transparent;
+}
+.Inputhold2::placeholder{
+    color: white;
+}
+.Inputhold3{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+    background-color: transparent;
+}
+.Inputhold3::placeholder{
+    color: white;
+}
+.Inputhold4{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+    background-color: transparent;
+}
+.Inputhold4::placeholder{
+    color: white;
+}
+.Inputhold5{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: none; 
+    border-right: none; 
+    border-left: none; 
+    background-color: transparent;
+    color: white;
+}
+.Inputhold5::placeholder{
+    color: white;
+}
+.Button{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+.Button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 360ms;
+}
